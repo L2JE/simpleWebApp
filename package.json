@@ -4,7 +4,7 @@
   "description": "Mini web completita desde base de datos postgress",
   "main": "api-app.js",
   "scripts": {
-    "build": "tsc -p .",
+    "build-release": "tsc -p .",
     "start": "node compiled/api/api-app.js",
     "dev": "nodemon src/api-app.ts"
   },
