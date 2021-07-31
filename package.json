@@ -6,7 +6,8 @@
   "scripts": {
     "build-release": "tsc -p .",
     "start": "node compiled/api/api-app.js",
-    "dev": "nodemon src/api-app.ts"
+    "dev-front": "nodemon src/website/router.ts",
+    "dev-back": "nodemon src/api/api-app.ts"
   },
   "keywords": [
     "postgres",
@@ -15,6 +16,10 @@
   ],
   "author": "LSRL",
   "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "express": "^4.17.1"
+  },
   "devDependencies": {
     "@types/node": "^16.4.7",
     "nodemon": "^2.0.12",
