@@ -1,11 +1,11 @@
+import 'dotenv/config';
 import express, {Application, Request, Response} from 'express';
 
 const app: Application = express();
-const PORT: number = 5000;
-
+const PORT: number = parseInt(process.env.WEBSITE_PORT as string);
 
 app.get('/', (req: Request, res: Response)=>{
-    res.send("<a href=\"/tuvieja\">HELLO!</a>");
+    res.send("<a href=\"/example-route\">HELLO!</a>");
 });
 
 app.get('/example-route', (req: Request, res: Response)=>{
