@@ -2,7 +2,7 @@
 Full stack miniweb for learning and testing my web-dev skills
 
 ### Enviroment
-All enviroment variables stand in .env file
+All enviroment variables stand in a .env file you must create to get the project running
 + **WEBSITE_PORT**=port_to_call_from_browser_and_get_the_webpages
 
 ### Scripts
