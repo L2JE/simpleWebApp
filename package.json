@@ -1,7 +1,7 @@
 {
   "name": "mini-web-full",
   "version": "1.0.0",
-  "description": "Mini web completita desde base de datos postgress",
+  "description": "Full stack miniweb for learning and testing my web-dev skills.",
   "main": "api-app.js",
   "scripts": {
     "build": "tsc -p .",
